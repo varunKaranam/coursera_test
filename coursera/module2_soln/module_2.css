@@ -1,0 +1,49 @@
+
+body{
+    margin: 10px;
+}
+.box
+{
+    width:30%;
+    height:300px;
+    border: 1.5px solid black;
+    overflow: auto;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+}
+.right-corner
+{
+    text-align: right;
+}
+.one
+{
+    background-color: tomato;
+}
+.two
+{
+    background-color:palegreen;
+}
+.three
+{
+    background-color: lightpink;
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    .one.two{
+        float:left;
+        width: 100%;
+    }
+    .three{
+        width:100%;
+    }
+    
+}
+@media (max-width:767px)
+{
+   .box{
+    float:none;
+    width:100%;
+   }
+}

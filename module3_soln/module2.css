@@ -1,0 +1,42 @@
+.navbar{
+	background-color : tomato;
+	color:black;
+	border-color: black;
+	border-width: 4px;
+}
+body{
+	background-color: white;
+	color: black;
+	border-color: black;
+}
+.glyphicon{
+	font-size: 35px;
+	color:black; 
+}
+
+.center{
+	width: 90%;
+	background-color:tomato;
+
+}
+.container
+{
+	background-color: tomato;
+}
+.text-center{
+	font-size: 35px;
+	font-weight: bold;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+#myNavbar ul li a {
+	color:black;
+}
+.navbar-brand{
+font-size: 25px;
+font-weight: bold;
+}
